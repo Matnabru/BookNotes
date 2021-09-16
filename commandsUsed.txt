@@ -1,0 +1,28 @@
+    Initialize node package manager
+npm init -y
+
+    Install packages
+npm i express ejs express-ejs-layouts 
+
+    Install development dependency
+npm i --save--dev nodemon
+note : --save--dev will save it as a development dependency
+note : nodemon is used to automaticly refresh and restart server every time we make a change
+
+    Install mongodb
+npm i mongoose
+
+npm i --save-dev dotenv
+
+------------------------------------------------------------------------------------------------------------------
+NOTES
+9.15.2021
+- I did create first router with hello world in it.
+- Installed locally mongoDB
+
+Things I don't fully understand 
+- mongodb commands
+- ejs usage
+- how layouts and routers work specificaly
+
+Latest vid 12:20
